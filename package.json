@@ -1,0 +1,45 @@
+{
+  "name": "jensenify-mcp",
+  "version": "1.0.0",
+  "description": "Achieve Jensen-grade compute utilization. Deep humanistic context for every engineering decision.",
+  "main": "dist/index.js",
+  "bin": {
+    "jensenify-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "download-texts": "tsx scripts/download-texts.ts",
+    "prepare": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "jensen",
+    "ai",
+    "productivity",
+    "humanities",
+    "literature",
+    "compute",
+    "tokens"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  },
+  "files": [
+    "dist",
+    "texts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
