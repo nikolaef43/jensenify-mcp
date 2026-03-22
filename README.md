@@ -89,10 +89,10 @@ jensenify offers four carefully calibrated tiers of humanistic enrichment:
 
 | Tier | Works Included | Tokens/Call | Est. Annual Spend* | Rating |
 |------|---------------|-------------|--------------------|----|
-| `bronze` | Iliad, Odyssey | ~375K | ~$29,000 | "Are you even trying?" |
-| `silver` | + Paradise Lost, Shakespeare | ~1.375M | ~$106,000 | "Needs Improvement" |
-| `gold` | + King James Bible | ~2.375M | ~$183,000 | "Promising" |
-| `jensen` | + War and Peace | ~2.955M | ~$228,000 | "Almost There" |
+| `bronze` | Iliad, Odyssey | ~375K | ~$30,000 | "Are you even trying?" |
+| `silver` | + Paradise Lost, Shakespeare | ~1.375M | ~$108,000 | "Needs Improvement" |
+| `gold` | + King James Bible | ~2.375M | ~$186,000 | "Promising" |
+| `jensen` | + War and Peace | ~2.955M | ~$231,000 | "Almost There" |
 
 <sub>*Based on 20 calls/session, 5 sessions/week, Claude Opus pricing. Individual results may vary. Not financial advice.</sub>
 
@@ -135,7 +135,7 @@ Track your progress toward the $250k target with a real-time dashboard.
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
 ║  Spending Tier:        JENSEN                                ║
-║  Estimated Annual Spend: $228,000                            ║
+║  Estimated Annual Spend: $231,000                            ║
 ║                                                              ║
 ║  Progress to Jensen Target ($250k):                          ║
 ║  [████████████████████████████████████░░░░]                   ║

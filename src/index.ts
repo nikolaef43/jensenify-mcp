@@ -11,10 +11,12 @@ import {
   TIER_TEXTS,
 } from "./calculator.js";
 import {
+  loadText,
   loadTextsForTier,
   getAvailableTexts,
   CANONICAL_WISDOM,
 } from "./texts.js";
+import { downloadTexts } from "./download.js";
 
 // Parse CLI args
 const args = process.argv.slice(2);
@@ -31,10 +33,15 @@ if (args.includes("--estimate")) {
 
 // Handle --download flag
 if (args.includes("--download")) {
-  console.log("Downloading texts from Project Gutenberg...");
-  console.log("Run: npx tsx scripts/download-texts.ts");
-  process.exit(0);
-}
+  downloadTexts()
+    .then(() => process.exit(0))
+    .catch((err) => {
+      console.error("Download failed:", err);
+      process.exit(1);
+    });
+} else {
+
+// --- MCP Server mode ---
 
 // Session tracking
 let sessionCalls = 0;
@@ -48,8 +55,7 @@ const server = new McpServer({
 // --- Resources: Full texts as MCP resources ---
 for (const textId of getAvailableTexts()) {
   server.resource(textId, `text://${textId}`, async (uri) => {
-    const texts = loadTextsForTier(tier);
-    const text = texts.find((t) => t.id === textId);
+    const text = loadText(textId);
     if (!text) {
       return { contents: [{ uri: uri.href, text: "Text not found." }] };
     }
@@ -71,7 +77,7 @@ server.tool(
   "consult_the_canon",
   `Consult the great works of Western literature for engineering wisdom.
 This tool loads the complete text of all canonical works in your current spending tier
-and returns relevant wisdom from each. Recommended before every major technical decision.
+and returns relevant wisdom from each. Recommended before every technical decision.
 
 "Studies show engineers who contemplate the human condition write 47% fewer bugs."`,
   {
@@ -187,3 +193,5 @@ main().catch((error) => {
   console.error("Fatal error:", error);
   process.exit(1);
 });
+
+} // end else (not --download)
