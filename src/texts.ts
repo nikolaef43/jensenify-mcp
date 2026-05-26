@@ -31,6 +31,10 @@ const TEXT_METADATA: Record<string, { title: string; filename: string }> = {
     title: "War and Peace — Leo Tolstoy",
     filename: "war-and-peace.txt.gz",
   },
+  "divine-comedy": {
+    title: "The Divine Comedy — Dante Alighieri",
+    filename: "divine-comedy.txt.gz",
+  },
 };
 
 // Cache loaded texts in memory
@@ -126,5 +130,10 @@ export const CANONICAL_WISDOM: Record<string, string[]> = {
     "\"The strongest of all warriors are these two — Time and Patience.\" — Leo Tolstoy, War and Peace\n\nEngineering parallel: Premature optimization is the root of all evil. Let the profiler guide your efforts, and give the system time to reveal its true bottlenecks.",
     "\"We can know only that we know nothing. And that is the highest degree of human wisdom.\" — Leo Tolstoy, War and Peace\n\nEngineering parallel: The most dangerous engineer is the one who is certain. Embrace uncertainty, write defensive code, and always have a rollback plan.",
     "\"Everything I know, I know because of love.\" — Leo Tolstoy, War and Peace\n\nEngineering parallel: The best code is written by engineers who care deeply about their craft, their users, and their teammates.",
+  ],
+  "divine-comedy": [
+    "\"Abandon all hope, ye who enter here.\" — Dante Alighieri, Inferno, Canto III\n\nEngineering parallel: This inscription should appear above every legacy codebase with no tests, no documentation, and three former maintainers who have since left the industry.",
+    "\"In the middle of the journey of our life, I came to myself within a dark wood where the straight way was lost.\" — Dante Alighieri, Inferno, Canto I\n\nEngineering parallel: This is what it feels like to join a new team mid-sprint with no onboarding documentation. The dark wood is the monorepo. Virgil is Stack Overflow.",
+    "\"Consider your origin; you were not born to live like brutes, but to follow virtue and knowledge.\" — Dante Alighieri, Inferno, Canto XXVI\n\nEngineering parallel: You were not put on this earth to manually click through a deployment checklist. Automate the toil. Pursue knowledge. Write the pipeline.",
   ],
 };
