@@ -55,6 +55,12 @@ const SOURCES: TextSource[] = [
     url: "https://www.gutenberg.org/cache/epub/2600/pg2600.txt",
     filename: "war-and-peace.txt.gz",
   },
+  {
+    id: "divine-comedy",
+    title: "The Divine Comedy — Dante Alighieri (translated by Henry Wadsworth Longfellow)",
+    url: "https://www.gutenberg.org/cache/epub/1004/pg1004.txt",
+    filename: "divine-comedy.txt.gz",
+  },
 ];
 
 async function downloadAndCompress(source: TextSource): Promise<{ original: number; compressed: number }> {
@@ -113,7 +119,7 @@ export async function downloadTexts(): Promise<void> {
   console.log();
   console.log(`Total original: ${(totalOriginal / 1024 / 1024).toFixed(1)}MB`);
   console.log(`Total compressed: ${(totalCompressed / 1024 / 1024).toFixed(1)}MB`);
-  console.log(`Estimated tokens when decompressed: ~2,955,000`);
+  console.log(`Estimated tokens when decompressed: ~3,105,000`);
   console.log();
-  console.log("\"The unexamined code is not worth shipping.\" — Socrates (probably)");
+  console.log('"The unexamined code is not worth shipping." — Socrates (probably)');
 }

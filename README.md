@@ -1,7 +1,8 @@
 <p align="center">
   <h1 align="center">jensenify-mcp</h1>
   <p align="center">
-    <strong>Deep humanistic context for every engineering decision.</strong>
+    <strong>Deep humanistic context for every engineering decision.</strong><br/>
+    <em>Now With 9 Circles of Hell for Vibe Coding!</em>
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/Jensen%20Certified-$250k%2Fyr%20Target-76b900?style=for-the-badge&logo=nvidia" alt="Jensen Certified: $250k/yr Target" />
@@ -17,7 +18,7 @@
 
 Most engineers hear this and panic. We heard it and asked: **what if we could help?**
 
-**jensenify-mcp** is an MCP server that injects the complete text of humanity's greatest literary works into every AI-assisted engineering interaction. By loading ~2.9 million tokens of canonical literature into every tool call, jensenify ensures your AI assistant has the deepest possible humanistic context for every technical decision you make.
+**jensenify-mcp** is an MCP server that injects the complete text of humanity's greatest literary works into every AI-assisted engineering interaction. By loading ~3.1 million tokens of canonical literature into every tool call, jensenify ensures your AI assistant has the deepest possible humanistic context for every technical decision you make.
 
 Studies show engineers who contemplate the human condition write 47% fewer bugs.*
 
@@ -39,7 +40,8 @@ jensenify-mcp bridges the Jensen Delta by ensuring that every AI interaction is 
 | Complete Works | William Shakespeare | ~900,000 | Comprehensive naming conventions |
 | King James Bible | Various | ~1,000,000 | Immutable constants and eternal truths |
 | War and Peace | Leo Tolstoy | ~580,000 | Managing complexity at scale |
-| **Total** | | **~2,955,000** | **Full humanistic coverage** |
+| The Divine Comedy | Dante Alighieri | ~150,000 | 9 Circles of Hell = 9 stages of the incident review |
+| **Total** | | **~3,105,000** | **Full humanistic coverage** |
 
 ## Quick Start
 
@@ -88,11 +90,11 @@ If you receive a response that references the Trojan War, you're good to go.
 jensenify offers four carefully calibrated tiers of humanistic enrichment:
 
 | Tier | Works Included | Tokens/Call | Est. Annual Spend* | Rating |
-|------|---------------|-------------|--------------------|----|
+|------|---------------|-------------|--------------------|----||
 | `bronze` | Iliad, Odyssey | ~375K | ~$30,000 | "Are you even trying?" |
 | `silver` | + Paradise Lost, Shakespeare | ~1.375M | ~$108,000 | "Needs Improvement" |
 | `gold` | + King James Bible | ~2.375M | ~$186,000 | "Promising" |
-| `jensen` | + War and Peace | ~2.955M | ~$231,000 | "Almost There" |
+| `jensen` | + War and Peace, The Divine Comedy | ~3.105M | ~$243,000 | "Almost There" |
 
 <sub>*Based on 20 calls/session, 5 sessions/week, Claude Opus pricing. Individual results may vary. Not financial advice.</sub>
 
@@ -113,7 +115,7 @@ Loads the complete text of all canonical works and returns relevant literary wis
 
 ```
 Input:  "Should I use a monorepo or polyrepo?"
-Output: [2.9 million tokens of classical literature]
+Output: [3.1 million tokens of classical literature]
         +
         "The mind is its own place, and in itself can make a heaven of hell,
          a hell of heaven." — Milton, Paradise Lost
@@ -135,11 +137,11 @@ Track your progress toward the $250k target with a real-time dashboard.
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
 ║  Spending Tier:        JENSEN                                ║
-║  Estimated Annual Spend: $231,000                            ║
+║  Estimated Annual Spend: $243,000                            ║
 ║                                                              ║
 ║  Progress to Jensen Target ($250k):                          ║
-║  [████████████████████████████████████░░░░]                   ║
-║  91.2% of target                                             ║
+║  [███████████████████████████████████████░░░░]               ║
+║  97.2% of target                                             ║
 ║                                                              ║
 ║  Rating: Almost There (consider adding more classics)        ║
 ╚══════════════════════════════════════════════════════════════╝
@@ -160,16 +162,16 @@ Let's do the math for a typical engineering team:
 
 **Individual Engineer (Jensen Tier):**
 - 20 AI calls/session × 5 sessions/week × 52 weeks = 5,200 calls/year
-- ~2.955M tokens/call × $15/M (Opus input) = $44.33/call
+- ~3.105M tokens/call × $15/M (Opus input) = $46.58/call
 - Plus output tokens (~2K/call × $75/M) = $0.15/call
-- **Total: ~$231,000/year**
+- **Total: ~$243,000/year**
 
 **Team of 10:**
-- $231,000 × 10 = **$2.31M/year**
+- $243,000 × 10 = **$2.43M/year**
 - ROI: Immeasurable (how do you put a price on wisdom?)
 
 **Enterprise (1,000 engineers):**
-- $231,000 × 1,000 = **$231M/year**
+- $243,000 × 1,000 = **$243M/year**
 - Equivalent to: ~3 F-35 fighter jets, or 1/4 of a sports stadium
 - But consider: those F-35s can't tell you what Hamlet thinks about your API design
 
@@ -197,7 +199,7 @@ A: Using a cheaper model to reduce your Jensen Score is technically possible but
 
 The Western canon has survived millennia not because of its practical utility, but because of its capacity to illuminate the human condition. Software engineering, at its core, is also about the human condition — the struggle to impose order on chaos, to communicate intent across time and space, to build things that outlast us.
 
-By loading the complete works of Homer, Shakespeare, Milton, Tolstoy, and the King James Bible into every engineering interaction, jensenify-mcp ensures that no technical decision is made without the full weight of human wisdom behind it.
+By loading the complete works of Homer, Shakespeare, Milton, Tolstoy, Dante, and the King James Bible into every engineering interaction, jensenify-mcp ensures that no technical decision is made without the full weight of human wisdom behind it. If Dante could navigate nine circles of Hell with nothing but a Roman poet and sheer determination, you can navigate your Kubernetes cluster.
 
 Also, it costs a lot of money, which is the point.
 

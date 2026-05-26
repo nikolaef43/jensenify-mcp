@@ -20,6 +20,7 @@ export const TEXT_TOKEN_COUNTS: Record<string, number> = {
   "complete-shakespeare": 900_000,
   "paradise-lost": 100_000,
   "war-and-peace": 580_000,
+  "divine-comedy": 150_000,
 };
 
 export const TIER_TEXTS: Record<string, string[]> = {
@@ -39,6 +40,7 @@ export const TIER_TEXTS: Record<string, string[]> = {
     "complete-shakespeare",
     "king-james-bible",
     "war-and-peace",
+    "divine-comedy",
   ],
 };
 
